@@ -1,0 +1,8 @@
+<resources>
+
+    <declare-styleable name="ProportionImageView">
+        <attr name="displayProportion" format="fraction" />
+        <attr name="startProportion" format="fraction" />
+    </declare-styleable>
+
+</resources>

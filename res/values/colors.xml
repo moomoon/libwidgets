@@ -1,0 +1,26 @@
+<resources>
+
+    <color name="floating_indicator_bg">#88000000</color>
+    <color name="floating_indicator_text">#ffffffff</color>
+    <color name="fluorescein">#fffff000</color>
+    <color name="dark_gray">#ff5a5a5a</color>
+    <color name="medium_gray">#ff888888</color>
+    <color name="diaphanous_medium_gray">#88888888</color>
+    <color name="weak_gray">#ffdddddd</color>
+    <color name="dark_blue">#ff146396</color>
+    <color name="cyan">#ff5d94de</color>
+    <color name="light_blue">#ffebf6f8</color>
+    <color name="ghost_blue">#085d94de</color>
+    <color name="orange">#ffecb834</color>
+    <color name="diaphanous_orange">#88ecb834</color>
+    <color name="weak_diaphanous_orange">#44ecb834</color>
+    <color name="magenta">#ffe16a6a</color>
+    <color name="phantom">#88ffffff</color>
+    <color name="yellow">#ffecd477</color>
+    <color name="light_purple">#ff9a8ed2</color>
+    <color name="green">#ff96ceb4</color>
+    <color name="azure">#ff88d7f4</color>
+    <color name="white">#ffeeeff0</color>
+    <color name="patient_stripe_text">#ff125376</color>
+
+</resources>

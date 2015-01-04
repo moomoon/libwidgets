@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <dimen name="calendar_year_text">30sp</dimen>
+
+    <color name="calendar_year_color_center">#ff000000</color>
+    <color name="calendar_year_color_verge">#00000000</color>
+    <color name="line_color">#0f000000</color>
+    <color name="calendar_bg">@android:color/white</color>
+
+    <string name="sunday">日</string>
+    <string name="monday">一</string>
+    <string name="tuesday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+    <string name="dialog_title" formatted="false">%d年  %d月  %d日</string>
+
+    <dimen name="calendar_month_height">250dp</dimen>
+    <dimen name="calendar_year_bar_height">40dp</dimen>
+    <dimen name="calendar_year_bar_padding_bottom">10dp</dimen>
+    <dimen name="calendar_week_bar_height">10dp</dimen>
+    <dimen name="calendar_date_text">15sp</dimen>
+    <dimen name="calendar_date_padding_bottom">6dp</dimen>
+    <dimen name="calendar_month_text">300sp</dimen>
+
+    <color name="calendar_date_line">#0f000000</color>
+    <color name="calendar_date_bg">#88eeeeee</color>
+    <color name="calendar_date_bg_other_month">#85dcdcdc</color>
+    <color name="calendar_date_bg_today">#aa5289dc</color>
+    <color name="calendar_date_bg_selector">#aadc5a09</color>
+    <color name="calendar_date_text">#ff000000</color>
+    <color name="calendar_date_text_other_month">#aa888888</color>
+    <color name="calendar_month_text">#ffbbbbbb</color>
+    <color name="calendar_title_text">#ff000000</color>
+
+    <style name="week_header_item">
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

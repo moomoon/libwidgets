@@ -1,0 +1,9 @@
+<resources>
+
+    <declare-styleable name="ListViewHeaderLayout">
+        <attr name="additionalPaddingTop" format="dimension" />
+        <attr name="additionalPaddingLeft" format="dimension" />
+        <attr name="dirtyTouch" format="boolean" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="@dimen/dialog_min_width"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_title_bar_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/dialog_title_bar_bg"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/dialog_icon"
+            android:layout_width="@dimen/dialog_title_bar_height"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="@dimen/dialog_title_bar_text_padding_left"
+            android:paddingRight="@dimen/dialog_title_bar_text_padding_right"
+            android:textColor="@color/dialog_title_bar_text"
+            android:textSize="@dimen/dialog_title_bar_text" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/dialog_extra_button_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_bar"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/dialog_extra_button_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_extra_button_scroll_view"
+        android:background="@color/dialog_button_bar_bg"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:maxHeight="@dimen/dialog_item_list_max_height"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@android:id/list" />
+
+    <LinearLayout
+        android:id="@+id/dialog_button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_button_bar_height"
+        android:layout_below="@+id/content_container"
+        android:background="@color/dialog_button_bar_bg"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/dialog_button_negative"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_bottom_left_button_bg"
+            android:textColor="@color/dialog_clickable_text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/dialog_button_neutral"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_bottom_right_button_bg"
+            android:textColor="@color/dialog_clickable_text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/dialog_button_positive"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_bottom_right_button_bg"
+            android:textColor="@color/dialog_clickable_text"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+
+    <color name="dialog_title_bar_bg">#ff78b1d9</color>
+    <color name="dialog_title_bar_text">#ffffffff</color>
+    <color name="dialog_button_bar_bg">#ffffffff</color>
+    <color name="dialog_button_bg_normal">@android:color/transparent</color>
+    <color name="dialog_button_bg_pressed">@color/dialog_title_bar_bg</color>
+    <color name="dialog_button_bg_disabled">@android:color/transparent</color>
+    <color name="dialog_button_seperator">@color/dialog_title_bar_bg</color>
+    <color name="dialog_button_text_normal">@android:color/black</color>
+    <color name="dialog_button_text_pressed">#ffffffff</color>
+    <color name="dialog_button_text_disabled">#88888888</color>
+    
+    
+        <dimen name="dialog_title_bar_height">40dp</dimen>
+    <dimen name="dialog_title_bar_text">15dp</dimen>
+    <dimen name="dialog_title_bar_text_padding_left">5dp</dimen>
+    <dimen name="dialog_title_bar_text_padding_right">5dp</dimen>
+    <dimen name="dialog_button_bar_height">@dimen/dialog_title_bar_height</dimen>
+    <dimen name="dialog_button_text">15dp</dimen>
+    <dimen name="dialog_min_width">350dp</dimen>
+    <dimen name="dialog_item_list_text">15dp</dimen>
+    <dimen name="dialog_item_list_padding_left">5dp</dimen>
+    <dimen name="dialog_item_list_padding_top">5dp</dimen>
+    <dimen name="dialog_item_list_padding_right">5dp</dimen>
+    <dimen name="dialog_item_list_padding_bottom">5dp</dimen>
+    <dimen name="dialog_item_list_max_height">300dp</dimen>
+    <dimen name="dialog_item_list_highlight_token_width">10dp</dimen>
+    <dimen name="dialog_extra_item_max_height">600dp</dimen>
+    
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+
+    <declare-styleable name="VerticalViewPagerIndicator">
+        <attr name="indicatorBackground" format="reference" />
+        <attr name="indicatorTextColor" format="reference" />
+        <attr name="indicatorTextSize" format="dimension" />
+        <attr name="indicatorPadding" format="dimension"/>
+    </declare-styleable>
+
+</resources>

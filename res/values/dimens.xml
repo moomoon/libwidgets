@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="floating_indicator_bg_height">50dp</dimen>
+    <dimen name="floating_indicator_padding_horizontal">5dp</dimen>
+    <dimen name="floating_indicator_bg_min_width">40dp</dimen>
+    <dimen name="floating_indicator_text">40dp</dimen>
+</resources>

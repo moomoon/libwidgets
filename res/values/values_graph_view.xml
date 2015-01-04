@@ -1,0 +1,17 @@
+<resources>
+
+    <declare-styleable name="GraphView">
+        <attr name="graphColor" format="color" />
+        <attr name="axisColor" format="color" />
+        <attr name="labelColor" format="color" />
+        <attr name="selectorColor" format="color" />
+        <attr name="unitColor" format="color" />
+        <attr name="gridColor" format="color" />
+        <attr name="unitTextSize" format="dimension" />
+        <attr name="labelTextSize" format="dimension" />
+        <attr name="selectorTextSize" format="dimension" />
+        <attr name="graphStrokeWidth" format="dimension" />
+        <attr name="gridAlpha" format="fraction" />
+    </declare-styleable>
+
+</resources>

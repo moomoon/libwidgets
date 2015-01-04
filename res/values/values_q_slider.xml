@@ -1,0 +1,8 @@
+<resources>
+
+    <declare-styleable name="QSlider">
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+    </declare-styleable>
+
+</resources>

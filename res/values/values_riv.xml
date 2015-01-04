@@ -1,0 +1,8 @@
+<resources>
+
+    <declare-styleable name="RIV">
+        <attr name="isPerfectCircle" format="boolean" />
+        <attr name="isClipEnabled" format="boolean" />
+    </declare-styleable>
+
+</resources>

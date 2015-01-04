@@ -1,0 +1,131 @@
+<resources>
+
+    <string-array name="chinese_month">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+
+    <attr name="titlebarBackground" format="reference" />
+    <attr name="progressbarDrawable" format="reference" />
+    <attr name="progressbarStyle" format="integer">
+        <flag name="belowTitleBar" value="0" />
+        <flag name="aboveTitleBar" value="1" />
+        <flag name="background" value="2" />
+    </attr>
+    <attr name="progressbarWidth" format="dimension" />
+
+    <declare-styleable name="TitleBar">
+        <attr name="titlebarBackground" />
+    </declare-styleable>
+    <declare-styleable name="TitleBarWithSubMenuButton">
+        <attr name="titlebarBackground" />
+    </declare-styleable>
+    <declare-styleable name="ProgressTitleBar">
+        <attr name="titlebarBackground" />
+        <attr name="progressbarDrawable" />
+        <attr name="progressbarStyle" />
+        <attr name="progressbarWidth" />
+    </declare-styleable>
+    <declare-styleable name="NotificationTitleBar">
+        <attr name="titlebarBackground" />
+        <attr name="progressbarDrawable" />
+        <attr name="progressbarStyle" />
+        <attr name="progressbarWidth" />
+    </declare-styleable>
+    <declare-styleable name="DrawableLayout">
+        <attr name="top" format="reference" />
+        <attr name="bottom" format="reference" />
+    </declare-styleable>
+
+    <!-- DayOfMonthDrawable -->
+    <color name="date_bg_month">@android:color/black</color>
+    <color name="date_bg_day">@android:color/white</color>
+    <color name="date_text_month">@android:color/white</color>
+    <color name="date_text_day">@android:color/black</color>
+
+    <!-- tab holder -->
+    <color name="tab_holder_text">#ff888888</color>
+    <color name="tab_holder_text_selected">#ff5289dc</color>
+    <color name="tab_holder_indicator">#ff5289dc</color>
+    <color name="tab_holder_extra_panel_bg">#ffffffff</color>
+    <color name="tab_holder_extra_panel_shade">#ff000000</color>
+    <color name="tab_holder_extra_panel_line">#88888888</color>
+    <color name="tab_holder_extra_panel_title_text">@android:color/white</color>
+    <color name="tab_holder_extra_panel_title_bg">#ffaaaaaa</color>
+
+    <!-- title bar -->
+    <color name="title_bar_bg">#ff25bbf3</color>
+    <color name="title_bar_selector">#44ffffff</color>
+    <color name="title_bar_button_seperator">#44ffffff</color>
+    <color name="title_bar_button_text">@android:color/black</color>
+    <color name="title_bar_button_text_inversed">@android:color/white</color>
+    <color name="title_bar_default_progress">#ff41d048</color>
+
+    <!-- notification -->
+    <color name="notification_info">#cc5bd79c</color>
+    <color name="notification_warning">#ccd6ae08</color>
+    <color name="notification_error">#ccc12413</color>
+    <color name="notification_seperator">#44ffffff</color>
+
+    <!-- DayOfMonthDrawable -->
+    <dimen name="date_text_month">15sp</dimen>
+    <dimen name="date_text_day">15sp</dimen>
+
+    <!-- Title Bar -->
+    <dimen name="title_bar_hospital_text">15dp</dimen>
+    <dimen name="title_bar_name_text">25dp</dimen>
+
+    <!-- tab holder -->
+    <dimen name="tab_holder_text">14dp</dimen>
+    <dimen name="tab_holder_height_portrait">45dp</dimen>
+    <dimen name="tab_holder_height_landscape">35dp</dimen>
+    <dimen name="tab_holder_title_padding_bottom">5dp</dimen>
+    <dimen name="tab_holder_icon_padding_bottom">15dp</dimen>
+    <dimen name="tab_holder_indicator_height">4dp</dimen>
+    <dimen name="tab_holder_extra_tab_button_width">60dp</dimen>
+    <dimen name="tab_holder_extra_tab_height">38dp</dimen>
+    <dimen name="tab_holder_extra_panel_line_margin">10dp</dimen>
+    <dimen name="tab_holder_extra_panel_line_width">1px</dimen>
+    <dimen name="tab_holder_icon_size">30dp</dimen>
+    <dimen name="tab_holder_extra_panel_title_height">20dp</dimen>
+    <dimen name="tab_holder_extra_panel_title_text">15dp</dimen>
+
+    <!-- title bar -->
+    <dimen name="title_bar_height">40dp</dimen>
+    <dimen name="title_bar_button_width">50dp</dimen>
+    <dimen name="title_bar_button_text">15dp</dimen>
+    <dimen name="title_bar_main_title">25dp</dimen>
+    <dimen name="title_bar_sub_title">15dp</dimen>
+    <dimen name="title_bar_sub_title_padding_top">5dp</dimen>
+    <dimen name="title_bar_main_title_padding_bottom">5dp</dimen>
+    <dimen name="title_bar_drop_down_panel_margin_horiz">45dp</dimen>
+    <dimen name="title_bar_drop_down_panel_margin_bottom">80dp</dimen>
+    <dimen name="title_bar_extra_panel_width">300dp</dimen>
+    <dimen name="title_bar_extra_panel_height">200dp</dimen>
+    <dimen name="title_bar_button_margin">3dp</dimen>
+    <dimen name="title_bar_padding_inner">5dp</dimen>
+    <dimen name="title_bar_button_glow_size">100dp</dimen>
+
+    <!-- notification -->
+    <dimen name="notification_text">20sp</dimen>
+    <dimen name="notification_item_height">40dp</dimen>
+    <dimen name="drawer_edge_width">250dp</dimen>
+
+    <!-- tab holder -->
+    <integer name="tab_holder_main_limit_portrait">4</integer>
+    <integer name="tab_holder_main_limit_landscape">6</integer>
+    <integer name="tab_holder_num_columns_extra_portrait">5</integer>
+    <integer name="tab_holder_num_columns_extra_landscape">7</integer>
+    <integer name="tab_holder_min_click_interval">100</integer>
+
+</resources>

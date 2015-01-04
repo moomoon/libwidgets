@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1" >
+
+    <com.mmscn.widgets.ProportionImageView
+        android:id="@android:id/icon"
+        android:layout_width="@dimen/rate_bar_item_width"
+        android:layout_height="@dimen/rate_bar_height"
+        android:layout_gravity="center" />
+
+</FrameLayout>

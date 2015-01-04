@@ -1,0 +1,13 @@
+<resources>
+
+    <declare-styleable name="ArcMenu">
+        <attr name="maxAlpha" format="integer" />
+        <attr name="itemAnimDelay" format="integer" />
+        <attr name="menuRadius" format="dimension" />
+        <attr name="itemAnimDuration" format="integer" />
+        <attr name="iconRotateDegree" format="integer" />
+        <attr name="menuStartDegree" format="integer" />
+        <attr name="menuDegreeSpan" format="integer" />
+    </declare-styleable>
+
+</resources>

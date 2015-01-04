@@ -1,0 +1,13 @@
+<resources>
+
+    <declare-styleable name="HeaderLayout">
+        <attr name="header" format="string" />
+        <attr name="showShadow" format="boolean" />
+        <attr name="watchParent" format="integer">
+            <enum name="never" value="-1" />
+            <enum name="passive" value="0" />
+            <enum name="aggressive" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

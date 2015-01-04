@@ -1,0 +1,7 @@
+<resources>
+
+    <declare-styleable name="TableRadioGroup">
+        <attr name="isUncheckable" format="boolean" />
+    </declare-styleable>
+
+</resources>

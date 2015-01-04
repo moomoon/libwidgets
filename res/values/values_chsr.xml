@@ -1,0 +1,11 @@
+<resources>
+
+    <attr name="sensitivity" format="float" />
+
+    <declare-styleable name="CHSR">
+        <attr name="retainWidth" format="dimension" />
+        <attr name="sensitivity" />
+        <attr name="retainBackground" format="reference" />
+    </declare-styleable>
+
+</resources>

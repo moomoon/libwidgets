@@ -1,0 +1,18 @@
+<resources>
+
+    <item name="base_eval_button_bar" type="id"/>
+    <item name="base_eval_container" type="id"/>
+
+    <color name="form_header_background">@color/dark_gray</color>
+    <color name="form_header_text">@android:color/white</color>
+
+    <dimen name="form_header_text">20dp</dimen>
+
+    <style name="form_header">
+        <item name="android:background">@color/form_header_background</item>
+        <item name="android:textColor">@color/form_header_text</item>
+        <item name="android:textSize">@dimen/form_header_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

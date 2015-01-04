@@ -1,0 +1,9 @@
+<resources>
+
+    <attr name="state_has_content" type="flag" />
+
+    <declare-styleable name="MMSSpinner">
+        <attr name="entries" format="reference" />
+    </declare-styleable>
+
+</resources>

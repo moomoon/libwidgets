@@ -1,0 +1,7 @@
+<resources>
+
+    <declare-styleable name="HeaderRelativeLayout">
+        <attr name="header" />
+    </declare-styleable>
+
+</resources>
